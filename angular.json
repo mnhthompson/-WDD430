@@ -23,9 +23,20 @@
                 "glob": "**/*",
                 "input": "public"
               }
+
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
+
+              NOT correct
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+            "scripts": [
+
+              NOT correct
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
             ]
           },
           "configurations": {
